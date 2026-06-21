@@ -1,0 +1,40 @@
+# === Data & large assets (코드 리뷰에 불필요; 획득 방법은 README 참고) ===
+datasets/
+segformer/
+output/
+renderings/
+
+# === External libraries / build artifacts ===
+PoseLib/
+__pycache__/
+*.pyc
+*.pyo
+*.so
+*.o
+*.egg-info/
+build/
+dist/
+
+# === Model weights & media (GitHub 100MB 단일파일 한도 초과 방지) ===
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+*.onnx
+*.mp4
+*.avi
+*.nvm
+*.tar
+*.tar.gz
+*.zip
+
+# === Logs / misc ===
+*.log
+.DS_Store
+.ipynb_checkpoints/
+
+# === 외부 의존성 / 로컬 설정 ===
+PIDNet/
+.claude/
+env_export_err.txt
